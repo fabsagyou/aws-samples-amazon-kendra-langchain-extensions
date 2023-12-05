@@ -18,6 +18,7 @@ def build_chain():
   prompt_template = """
   The following is a friendly conversation between a human and an AI. 
   The AI is talkative and provides lots of specific details from its context.
+  Please write the text in English, and then translate it into Japanese before answering.
   If the AI does not know the answer to a question, it truthfully says it 
   does not know.
   {context}
